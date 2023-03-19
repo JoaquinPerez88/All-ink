@@ -1,31 +1,30 @@
 
 import "../CSS/Home.css"
-
-
-
-
+import React from "react"
 
 const Home = () => {
     return(
-    <div className="pantallaPrincipal">
 
-        <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta natus tempora veniam. Repellat, velit, maxime neque corporis, quis aperiam doloribus earum exercitationem magnam quaerat ex iure asperiores odit facilis.\
-        </h1>
+<>
+    
+    <div>
 
+       <h1>ALL-INK TATTO STUDIO</h1>   
 
-   </div>
-
-
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maxime dolores deleniti ullam numquam corporis soluta voluptates vero velit, inventore modi dolorem! Quia, possimus. Sed exercitationem incidunt aspernatur dignissimos aliquam.</p>
 
 
 
+    </div>
 
 
 
 
+
+</>
 
     )
+
 }
 
 export default Home;
